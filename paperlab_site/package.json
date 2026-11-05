@@ -1,0 +1,16 @@
+{
+  "name": "paperlab-website",
+  "version": "3.1.0",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test_worker.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.13.3"
+  }
+}
